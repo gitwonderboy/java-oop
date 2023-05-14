@@ -1,6 +1,6 @@
 # Object Oriented Programming In JAVA
-Coding Style and Naming Conventions
-
+## Coding Style and Naming Conventions
+- Indentation, comments, meaningful variable, method and class names.
 
  Programming Case Types:
 
