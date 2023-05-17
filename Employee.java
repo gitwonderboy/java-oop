@@ -42,8 +42,20 @@ public class Employee {
 		return complaints;
 	}
 
+	public void listComplaints() {
+		System.out.println("");
+		System.out.println("Complaints about: " + this.name);
+		for (int i = 0; i < complaints.length; i++) {
+			if (getComplaints()[i] != null) {
+				System.out.println((i + 1) + ". " + getComplaints()[i]);
+			} else {
+				break;
+			}
+		}
+	}
+
 	public void setComplaints(String complaint) {
-		for (int i = 0; i <= complaints.length; i++) {
+		for (int i = 0; i < complaints.length; i++) {
 			if (complaints[i] == null) {
 				complaints[i] = complaint;
 				break;
